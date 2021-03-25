@@ -1,0 +1,30 @@
+.LabelControlChildren {
+    color: Black;
+    width: 97%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 5px 5px 0 0;
+}
+
+    .LabelControlInChildren {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ArrowIcon {
+        padding: 10px;
+        transform: rotate(180deg);
+        transition: 0.5s !important;
+    }
+        .ArrowIconRot {
+            padding: 10px;
+            transform: rotate(0deg);
+            transition: 0.5s !important;
+            color: cornflowerblue;
+        }
+    .MuiFormControlLabel-root {
+        margin: 0 !important; /*Mui lead value*/
+    }
